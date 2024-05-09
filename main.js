@@ -123,13 +123,32 @@ function misura15cmArray(dati) {
 }
 
 //Snack 3
-let userString = prompt("inserisci una Stringa");
 /*
-userString.split("");
-userString.reverse();
-userString.join();
+let userString = prompt("inserisci una Stringa");
 
-console.log(userString)
-*/
+// userString.split("");
+// userString.reverse();
+// userString.join();
+// console.log(userString)
+
 let reversed = [...userString].reverse().join('');//Fatto ma non ho capito perché si debbano usare i 3 puntini
 console.log(reversed)
+*/
+
+
+//Snack 4
+const array = [1, 2, 3];
+const arrayLettere = ["a", "b", "c"];
+let arrayFinale = [];
+let arrayPersonale = [];
+
+for (let i = 0; i < array.length; i++) {
+    arrayFinale.push(array[i]);
+    arrayFinale.push(arrayLettere[i]);
+    arrayPersonale.push(array[i] + arrayLettere[i]);
+
+}
+console.log("primo array ", array);
+console.log("secondo array ", arrayLettere);
+console.log("array finale ", arrayFinale);
+console.log("array personale", arrayPersonale)
