@@ -151,4 +151,12 @@ for (let i = 0; i < array.length; i++) {
 console.log("primo array ", array);
 console.log("secondo array ", arrayLettere);
 console.log("array finale ", arrayFinale);
-console.log("array personale", arrayPersonale)
+console.log("array personale", arrayPersonale);
+
+
+//Snack 5
+function snack5(array "2"){
+    while(a<b && b=array.length){
+
+    }
+}
