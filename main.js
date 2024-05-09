@@ -121,3 +121,15 @@ function misura15cmArray(dati) {
     console.log(`Gli oggetti che mi misurano più di 15cm sono: ${misuraMaggiore} e pesano un totale di ${pesoMaggiore}.
     Mentre quelli che misurano meno di 15cm sono: ${misuraMinore} e pesano un totale di ${pesoMinore}.`)
 }
+
+//Snack 3
+let userString = prompt("inserisci una Stringa");
+/*
+userString.split("");
+userString.reverse();
+userString.join();
+
+console.log(userString)
+*/
+let reversed = [...userString].reverse().join('');//Fatto ma non ho capito perché si debbano usare i 3 puntini
+console.log(reversed)
