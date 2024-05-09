@@ -24,7 +24,7 @@ console.log("le zucchine pesano " + risultatoAddizione)
 risultatoAddizione2 = addizione2(melanzane);
 console.log("le melanzane pesano " + risultatoAddizione2)
 
-
+//Queste due funzioni, funzionano in modo uguale ma sono scritti in modo diverso
 /*
 function addizione(dati) {
     let pesoGruppo = 0;
@@ -155,8 +155,15 @@ console.log("array personale", arrayPersonale);
 
 
 //Snack 5
-function snack5(array "2"){
-    while(a<b && b=array.length){
+const arraySnack5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let a = 1;
+let b = arraySnack5.length;
 
+function snack5(arraySnack5, a, b) {
+    let ultimoArray = [];
+    for (let index = a; index <= b && index >= a; index++) {
+        console.log(arraySnack5[index]);
+        ultimoArray.push(arraySnack5[index]);
     }
+    return `l'ultimo array è: ${ultimoArray}`;
 }
